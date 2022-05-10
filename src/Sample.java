@@ -7,10 +7,18 @@ public class Sample {
 		 System.out.println(s);
 
 	}
+	private void div(int n,int n1) {
+		int d;
+		d=n/n1;
+		System.out.println(d);
+
+	}
 
 	public static void main(String[] args) {
 		
 		add(10, 25);
+		Sample di = new Sample();
+		di.div(350, 10);
 		
 	}
 }
